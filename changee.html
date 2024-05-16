@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes changeimg{
+            0%{background-image: url("b1.webp");}
+            25%{background-image: url("b2.jpg");}
+            50%{background-image: url("b3.avif");}
+            75%{background-image: url("b4.jpeg");}
+            100%{background-image: url("b5.avif");}
+
+        }
+        body{
+            background-image: url("b1.webp");
+            background-repeat: no-repeat;
+            background-size: 1600px 1600px;
+             animation-name:changeimg;
+             animation-duration: 15s;
+             animation-delay:2s;
+             animation-iteration-count: infinite;
+        }
+
+    </style>
+</head>
+<body>
+   
+
+   
+</body>
+</html>
